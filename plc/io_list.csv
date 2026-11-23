@@ -1,0 +1,21 @@
+tag,direction,description,grafcet
+AU,input,Emergency stop,Emergency stop
+BS,input,Stop button,Emergency stop
+BG,input,Move pole piece left,General
+BD,input,Move pole piece right,General
+BV,input,Confirm selection,General
+BM1-BM4,input,Select magnetisation method M1 to M4,S1
+CI1-CI2,input,Inspection carriage position sensors (rear),S3
+CI3-CI4,input,Inspection carriage position sensors (front),S3
+CS1-CS2,input,Solenoid position sensors (rear),S1 / S2
+CS3-CS4,input,Solenoid position sensors (front),S1 / S2
+CSCR,input,SCR control board signal,S4
+KA1,output,Solenoid magnetisation contactor (M3),S1
+KA2,output,Field magnetisation contactor (M4),S1
+KM1-KM2,output,Pole piece motor contactors,General
+KM3-KM4,output,Solenoid carriage motor contactors,S1 / S2
+KM5,output,Spray pump motor contactor,S2
+KM6-KM7,output,Inspection carriage motor contactors,S3
+LUV,output,UV lamp,S3
+Q1,output,Camera supply contactor,S3
+SCR,output,SCR command,S1 / S4
